@@ -37,3 +37,6 @@ For any given array of length n there are n! possible permutations. To print the
 **Space Complexity**: `O(n!)`
 
 Recursion will store variables in the call stack for all n! permutations.
+
+<img src="https://www.baeldung.com/wp-content/uploads/sites/4/2020/09/ABCPermutation.svg" alt="https://www.baeldung.com/cs/array-generate-all-permutations" />
+<img src="https://www.baeldung.com/wp-content/uploads/2019/12/permutations-1.png" alt="https://www.baeldung.com/java-combinatorial-algorithms" />
