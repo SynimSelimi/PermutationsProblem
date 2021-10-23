@@ -1,5 +1,6 @@
 # PermutationsProblem
 
+### Description
 Given an array nums of distinct integers, return all the possible permutations. You can return the answer in any order.
 
 Example 1:
@@ -26,3 +27,13 @@ Constraints:
 - 1 <= nums.length <= 6
 - -10 <= nums[i] <= 10
 - All the integers of nums are unique.
+
+### Complexity
+
+**Time Complexity**: `O(n * n!)`
+
+For any given array of length n there are n! possible permutations. To print them all we require at least n times to go through n!.
+
+**Space Complexity**: `O(n!)`
+
+Recursion will store variables in the call stack for all n! permutations.
